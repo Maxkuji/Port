@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 const navLinks = [
   { name: 'Home', href: '#home', type: 'section' },
   { name: 'About', href: '#about', type: 'section' },
-  { name: 'Projects', href: '/projects', type: 'page' },
+  { name: 'Projects', href: '#projects', type: 'section' },
   { name: 'Contact', href: '#contact', type: 'section' },
 ];
 
@@ -54,7 +54,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className="w-full flex items-center px-8 py-4 bg-[#2C2C2C]"
+      className="fixed-navbar w-full flex items-center px-8 py-4 bg-[#2C2C2C]"
       style={{ minHeight: '64px' }}
       aria-label="Main navigation"
     >
