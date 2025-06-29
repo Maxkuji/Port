@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import ProjectCarousel from '../components/ProjectCarousel';
+import OrbitProfile from '@/components/OrbitProfile';
 
 export default function Home() {
   return (
@@ -15,11 +16,12 @@ export default function Home() {
       </div> */}
 
       <section id="home" className="flex-1 flex flex-col items-center justify-center min-h-screen scroll-mt-20">
-        <h1 className="text-5xl font-IBM font-bold text-red-600 mb-4">Hope you are doing well</h1>
-        <p className="text-lg font-IBM font-bold text-gray-400 mb-6">Rungroj Poomkokrak</p>
+        {/* <h1 className="text-5xl font-IBM font-bold text-red-600 mb-4">Hope you are doing well</h1>
+        <p className="text-lg font-IBM font-bold text-gray-400 mb-6">Rungroj Poomkokrak</p> */}
         {/* <button className="bg-red-600 hover:bg-orange-500 text-black font-IBM font-bold py-3 px-6 rounded-lg transition">
           View Projects
         </button> */}
+        <OrbitProfile/>
       </section>
 
       <section id="about" className="flex flex-col items-center justify-center min-h-screen scroll-mt-20">
