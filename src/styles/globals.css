@@ -37,8 +37,8 @@ body {
   z-index: 100;
 }
 
-@layer utilities {
+/* @layer utilities {
   .animate-spin-slow {
-    animation: spin 12s linear infinite;
+    animation: spin 15s linear infinite;
   }
-}
+} */

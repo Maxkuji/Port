@@ -7,21 +7,13 @@ export default function Home() {
     <div className="sm:px-1 min-h-screen flex flex-col text-white" style={{ backgroundColor: '#0A0A0A' }}>
       <Navbar />
 
-      {/* <div className="flex flex-col md:flex-col items-center justify-center gap-20">
-        <img
-          src="/images/shark.jpg"
-          alt="My Profile"
-          className="w-60 h-60 rounded-full object-cover"
-        />
-      </div> */}
-
       <section id="home" className="flex-1 flex flex-col items-center justify-center min-h-screen scroll-mt-20">
-        {/* <h1 className="text-5xl font-IBM font-bold text-red-600 mb-4">Hope you are doing well</h1>
-        <p className="text-lg font-IBM font-bold text-gray-400 mb-6">Rungroj Poomkokrak</p> */}
+        <OrbitProfile/>
+        <h1 className="text-5xl font-IBM font-bold text-red-600 mb-4">Hope you are doing well</h1>
+        <p className="text-lg font-IBM font-bold text-gray-400 mb-6">Rungroj Poomkokrak</p>
         {/* <button className="bg-red-600 hover:bg-orange-500 text-black font-IBM font-bold py-3 px-6 rounded-lg transition">
           View Projects
         </button> */}
-        <OrbitProfile/>
       </section>
 
       <section id="about" className="flex flex-col items-center justify-center min-h-screen scroll-mt-20">

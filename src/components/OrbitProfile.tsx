@@ -3,19 +3,18 @@
 import Image from 'next/image';
 
 const socialLinks = [
-  { icon: '/icons/github.svg', url: 'https://github.com/yourusername', angle: 0 },
-  { icon: '/icons/facebook.svg', url: 'https://facebook.com/yourusername', angle: 90 },
-  { icon: '/icons/linkedin.svg', url: 'https://linkedin.com/in/yourusername', angle: 180 },
-  { icon: '/icons/twitter.svg', url: 'https://twitter.com/yourusername', angle: 270 },
+  { icon: '/images/github.svg', url: 'https://github.com/Maxkuji', angle: 0 },
+  { icon: '/images/facebook.svg', url: 'https://www.facebook.com/rungroj.poomkokrak', angle: 90 },
+  { icon: '/images/instagram.png', url: 'https://linkedin.com/in/yourusername', angle: 180 },
+  { icon: '/images/steam.svg', url: 'https://twitter.com/yourusername', angle: 270 },
 ];
 
 export default function OrbitProfile() {
   return (
     <div className="relative w-72 h-72 mx-auto my-16">
-      {/* Profile Image */}
       <div className="w-36 h-36 rounded-full overflow-hidden border-4 border-[#FB9402] mx-auto relative z-10">
         <Image
-          src="/images/profile.jpg"
+          src="/images/me.jpg"
           alt="Profile"
           width={144}
           height={144}
